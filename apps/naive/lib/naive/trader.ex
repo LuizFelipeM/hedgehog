@@ -28,7 +28,7 @@ defmodule Naive.Trader do
     {:ok,
      %State{
        symbol: args.symbol,
-       profit_interval: args,
+       profit_interval: args.profit_interval,
        tick_size: tick_size
      }}
   end
